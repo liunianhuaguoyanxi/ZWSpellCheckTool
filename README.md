@@ -1,7 +1,7 @@
 # ZWSpellCheckTool
 It’s  easy way to do spell check about many contries’ language.（一种快捷方便的方法来对许多国家的语言做拼写检查.）
 
-## Support to do such languages spell check
+## Support to do such languages spell check（支持检查的语言种类如下）
 ###    en---English-------(英语)
 ###    es---Spanish-------(西班牙语)
 ###    fr---French--------(法语）
@@ -10,7 +10,7 @@ It’s  easy way to do spell check about many contries’ language.（一种快�
 ###    pt---Portuguese----(葡萄牙语)
 ##
 ## How to use（使用方法）
-### Import the header file
+### Import the header file（导入头文件）
 ##
 #import "ZWSpellCheckTool.h"
 ##
@@ -36,14 +36,16 @@ self.textContentView.attributedText=[spellCheckTool addSelectedErrorWordIntext:s
 {
     
     //耗时操作，创建子线程，用于查找输入错误的单词
+    
     __weak typeof(self) weakSelf = self;
     dispatch_queue_t downloadQueue = dispatch_queue_create("findErrorWords", NULL);
     dispatch_async(downloadQueue, ^{
         
         ZWSpellCheckTool *spellCheckTool =[[ZWSpellCheckTool alloc]init];
         
+        //设置检查语言类型
         spellCheckTool.languageType=1;
-        
+
         //返回错误的单词
         NSMutableArray *errorArr =[spellCheckTool ZWWordCheckToolWith:weakSelf.textContentView.text];
 
