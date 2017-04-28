@@ -14,19 +14,19 @@ It’s  easy way to do spell check about many contries’ language.（一种快�
 ##
     #import "ZWSpellCheckTool.h"
 ##
-#### 1. To initialize the ZWSpellCheckTool (初始化)
+### 1. To initialize the ZWSpellCheckTool (初始化)
 ##
     ZWSpellCheckTool *spellCheckTool =[[ZWSpellCheckTool alloc]init];
 ##
-#### 2. To set the languageTyp (设置检查语言类型，枚举类型)
+### 2. To set the languageTyp (设置检查语言类型，枚举类型)
 ##
     spellCheckTool.languageType=1；
 ##
-#### 3. To start the language spell check  (检查并返回错误单词数组)
+### 3. To start the language spell check  (检查并返回错误单词数组)
 ##
     NSMutableArray *errorArr =[spellCheckTool ZWWordCheckToolWith:self.textContentView.text];
 ##
-#### 4. To do the mark about error words  (展示并标记错误单词的位置)
+### 4. To do the mark about error words  (展示并标记错误单词的位置)
 ##
     self.textContentView.attributedText=[spellCheckTool addSelectedErrorWordIntext:self.textContentView.text WithTextFont:self.textContentView.font WithArr:errorArr WithErrorColor:[UIColor redColor] WithUnderline:YES];
 ##
