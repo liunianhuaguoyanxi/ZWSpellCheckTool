@@ -57,3 +57,5 @@ It’s  easy way to do spell check about many contries’ language.（一种快�
         }); });
     
 }
+#### The specific content about it is in the demo(具体设置详情在demo中)
+#### If you have any questions, please send the email to liunianhuaguoyanxi@Gmail.com or liunianhuaguoyanxi@163.com 
