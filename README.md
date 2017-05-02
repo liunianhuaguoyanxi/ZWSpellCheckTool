@@ -1,5 +1,5 @@
 # ZWSpellCheckTool
-It’s  easy way to do spell check about many contries’ language.（一种快捷方便的方法来对许多国家的语言做拼写检查.）
+It’s  easy way to do spell check about various countries’ language.（一种快捷方便的方法来对各种国家的语言做拼写检查.）
 
 ## Support to do such languages spell check（支持检查的语言种类如下）
 ###    en---English-------(英语)
