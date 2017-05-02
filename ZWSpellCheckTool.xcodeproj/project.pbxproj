@@ -23,6 +23,7 @@
 		8F2A5B071EB32EA400B7385C /* portugues.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F2A5AFF1EB32EA400B7385C /* portugues.txt */; };
 		8F2A5B081EB32EA400B7385C /* spanish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F2A5B001EB32EA400B7385C /* spanish.txt */; };
 		8F2A5B091EB32EA400B7385C /* ZWSpellCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A5B021EB32EA400B7385C /* ZWSpellCheckTool.m */; };
+		8F864D361EB8253900369BE0 /* spellToolPic.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F864D351EB8253900369BE0 /* spellToolPic.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		8F2A5B001EB32EA400B7385C /* spanish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spanish.txt; sourceTree = "<group>"; };
 		8F2A5B011EB32EA400B7385C /* ZWSpellCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSpellCheckTool.h; sourceTree = "<group>"; };
 		8F2A5B021EB32EA400B7385C /* ZWSpellCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWSpellCheckTool.m; sourceTree = "<group>"; };
+		8F864D351EB8253900369BE0 /* spellToolPic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spellToolPic.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		8F1092E11DB7518F003BB2E8 /* ZWSpellCheckTool */ = {
 			isa = PBXGroup;
 			children = (
+				8F864D341EB8253900369BE0 /* GIF */,
 				8F1093181DB75259003BB2E8 /* Demo */,
 				8F2A5AFA1EB32EA400B7385C /* ZWSpellCheckTool */,
 				8F1093151DB75218003BB2E8 /* Others */,
@@ -202,6 +205,14 @@
 				8F2A5B021EB32EA400B7385C /* ZWSpellCheckTool.m */,
 			);
 			path = ZWSpellCheckTool;
+			sourceTree = "<group>";
+		};
+		8F864D341EB8253900369BE0 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				8F864D351EB8253900369BE0 /* spellToolPic.gif */,
+			);
+			path = GIF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +325,7 @@
 				8F2A5B051EB32EA400B7385C /* german.txt in Resources */,
 				8F2A5B071EB32EA400B7385C /* portugues.txt in Resources */,
 				8F2A5B041EB32EA400B7385C /* french.txt in Resources */,
+				8F864D361EB8253900369BE0 /* spellToolPic.gif in Resources */,
 				8F2A5B061EB32EA400B7385C /* italian.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
